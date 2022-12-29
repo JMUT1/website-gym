@@ -15,7 +15,13 @@ const Navbar = () => {
           {links.map(({ name, path }, index) => {
             return (
               <li key={index}>
-                <NavLink to={path}>{name}</NavLink>
+                <NavLink
+                  to={path}
+                  //   CLASSNAME makes the trick to dynamically add the css
+                  className={({ isActive }) => (isActive ? "active-nav" : "")}
+                >
+                  {name}
+                </NavLink>
               </li>
             );
           })}
