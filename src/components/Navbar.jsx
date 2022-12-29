@@ -3,8 +3,10 @@ import logo from "../images/logo.png";
 import "./navbar.css";
 import { links } from "../data";
 import { GoThreeBars } from "react-icons/go";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [isNavShowing, setIsNavShowing] = useState(false);
   return (
     <nav>
       <div className="container nav__container">
