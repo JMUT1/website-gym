@@ -15,6 +15,18 @@ const Values = () => {
       </div>
       <div className="values__right">
         <SectionHead icon={<GiCutDiamond/>} title="Values"/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam facilis</p>
+        <div className='values__wrapper'>
+          {
+            values.map(({id,icon,title,desc}, index)=>{
+              return <Card className="values__value" key={index}>
+                <span>{icon}</span>
+                <h4>{title}</h4>
+                <small>{desc}</small>
+              </Card>
+            })
+          }
+        </div>
       </div>
       </div>
     </section>

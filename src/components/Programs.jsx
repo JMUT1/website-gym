@@ -2,7 +2,7 @@ import React from "react";
 import { FaCrown } from "react-icons/fa";
 import SectionHead from "./SectionHead";
 import { programs } from "../data";
-import { Card } from "../IU/Card";
+import Card  from "../IU/Card";
 import { Link } from "react-router-dom";
 import { AiFillCaretRight } from "react-icons/ai";
 
