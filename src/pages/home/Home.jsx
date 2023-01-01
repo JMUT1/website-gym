@@ -4,6 +4,7 @@ import Values from '../../components/Values'
 import FAQS from "../../components/FAQS";
 
 import "./home.css";
+import Testimonials from "../../components/Testimonials";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Programs />
       <Values/>
       <FAQS/>
+      <Testimonials/>
     </>
   );
 }
