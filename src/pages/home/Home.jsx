@@ -1,6 +1,7 @@
 import MainHeader from "../../components/MainHeader";
 import Programs from "../../components/Programs";
 import Values from '../../components/Values'
+import FAQS from "../../components/FAQS";
 
 import "./home.css";
 
@@ -10,6 +11,7 @@ function Home() {
       <MainHeader />
       <Programs />
       <Values/>
+      <FAQS/>
     </>
   );
 }
