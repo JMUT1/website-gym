@@ -47,10 +47,10 @@ const Footer = () => {
                 <Link to="/plans">Support</Link>
 
             </article>
+        </div>
             <div className="footer__copyright">
                 <small>2023 Chema Torres &copy; All Rigths Reserved</small>
             </div>
-        </div>
     
 
     </footer>
