@@ -9,10 +9,13 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
+
+
+
   return (
     <nav>
       <div className="container nav__container">
-        <Link to="/" className="logo" onClick={() => setIsNavShowing(false)}>
+        <Link to="/" className="logo">
           <img src={logo} alt="Nav Logo" />
         </Link>
         <ul
