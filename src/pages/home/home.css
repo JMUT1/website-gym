@@ -251,6 +251,11 @@ footer{
   font-size: 1rem;
 }
 
+.footer__container article a:hover{
+color: var(--color-secondary);
+
+}
+
 .footer__socials{
   margin-top: 1.5rem;
   display: flex;
