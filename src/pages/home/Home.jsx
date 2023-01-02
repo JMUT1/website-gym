@@ -5,6 +5,7 @@ import FAQS from "../../components/FAQS";
 
 import "./home.css";
 import Testimonials from "../../components/Testimonials";
+import Footer from "../../components/Footer";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Values/>
       <FAQS/>
       <Testimonials/>
+      <Footer/>
     </>
   );
 }
