@@ -8,6 +8,7 @@ import NotFound from "./pages/notFound/NotFound";
 import Plans from "./pages/plans/Plans";
 import Trainners from "./pages/trainners/Trainners";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="trainers" element={<Trainners />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
