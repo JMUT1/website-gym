@@ -19,7 +19,7 @@ function Trainners() {
       <div className="container trainers__container">
         {
           trainers.map(({id, image, name, job, socials})=>{
-            <Trainner key={id} image={image} name={name} job={job} socials={[
+            return <Trainner key={id} image={image} name={name} job={job} socials={[
               {icon: <BsInstagram/>, link: socials[0]},
               {icon: <AiOutlineTwitter/>, link: socials[1]},
               {icon: <FaFacebookF/>, link: socials[2]},
@@ -27,6 +27,7 @@ function Trainners() {
 
             ]}/>
           })
+        
         }
       </div>
     </section>
