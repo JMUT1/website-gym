@@ -41,7 +41,7 @@
     transition: var(--transition);
 }
 
-.trainer:hover a{
+.trainer__socials a:hover{
     background: var(--color-gray-500)
 }
 
