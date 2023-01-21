@@ -36,7 +36,7 @@ body {
   color: var(--color-gray-200);
   line-height: 1.7;
   overflow-x: hidden;
-  background: var(--color-gray-600);
+  background: #fdfdfa
 }
 
 .container {
@@ -51,7 +51,7 @@ h3,
 h4,
 h5 {
   line-height: 1.2;
-  color: var(--color-gray-100);
+  color: #af7c62;
 }
 
 h1 {
@@ -72,17 +72,17 @@ img {
 }
 
 .btn {
-  color: var(--color-gray-100);
+  color: #ffff;
   width: fit-content;
   margin: 0 auto;
   padding: 0.9rem 2rem;
-  background: var(--color-primary);
+  background: #e7c3c9;
   border-radius: 1.5rem;
   transition: var(--transition);
 }
 
 .btn:hover {
-  background: var(--color-secondary);
+  background: #f2e7e8;
   color: var(--color-gray-600);
 }
 
@@ -112,7 +112,7 @@ section {
 }
 
 .section__head span {
-  background: var(--color-gray-500);
+  background: #f0e6e6;
   padding: 0.8rem;
   border-radius: 1rem;
   color: var(--color-secondary);
@@ -120,7 +120,7 @@ section {
 }
 
 .card {
-  background: var(--color-gray-500);
+  background: #fadde5;
   border: 2px solid transparent;
   text-align: center;
   padding: 3rem 2rem;
@@ -130,7 +130,8 @@ section {
 
 .card:hover {
   background: transparent;
-  border-color: var(--color-gray-400);
+  border-color:#e7c3c9;
+  ;
   cursor: default;
 }
 
@@ -149,7 +150,7 @@ section {
 }
 
 .card:hover span {
-  background: var(--color-secondary);
+  background: #e7c3c9;
   color: var(--color-gray-500);
 }
 

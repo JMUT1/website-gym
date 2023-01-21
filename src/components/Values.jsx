@@ -1,4 +1,4 @@
-import Image from '../images/values.jpg'
+import Image from '../images/pexels-dalila-dalprat-2281695.jpg'
 import SectionHead from './SectionHead'
 import {GiCutDiamond} from 'react-icons/gi'
 import {values} from "../data"

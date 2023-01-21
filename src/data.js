@@ -1,4 +1,4 @@
-import { SiOpenaigym } from "react-icons/si";
+import { RiScissorsCutFill } from "react-icons/ri";
 
 export const links = [
   {
@@ -30,29 +30,29 @@ export const links = [
 export const programs = [
   {
     id: 1,
-    icon: <SiOpenaigym />,
-    title: "Program One",
+    icon: <RiScissorsCutFill />,
+    title: "Nails",
     info: "This is the day that the lord has made. We will rejoice!",
     path: "/programs/111",
   },
   {
     id: 2,
-    icon: <SiOpenaigym />,
-    title: "Program Two",
+    icon: <RiScissorsCutFill />,
+    title: "Pedicure",
     info: "This is the day that the lord has made. We will rejoice!",
     path: "/programs/222",
   },
   {
     id: 3,
-    icon: <SiOpenaigym />,
-    title: "Program Three",
+    icon: <RiScissorsCutFill />,
+    title: "Manicure & Gel",
     info: "This is the day that the lord has made. We will rejoice!",
     path: "/programs/333",
   },
   {
     id: 4,
-    icon: <SiOpenaigym />,
-    title: "Program Four",
+    icon: <RiScissorsCutFill />,
+    title: "Skin Care",
     info: "This is the day that the lord has made. We will rejoice!",
     path: "/programs/444",
   },
@@ -61,25 +61,25 @@ export const programs = [
 export const values = [
   {
     id: 1,
-    icon: <SiOpenaigym />,
+    icon: <RiScissorsCutFill />,
     title: "Value One",
     desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
   },
   {
     id: 2,
-    icon: <SiOpenaigym />,
+    icon: <RiScissorsCutFill />,
     title: "Value Two",
     desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
   },
   {
     id: 3,
-    icon: <SiOpenaigym />,
+    icon: <RiScissorsCutFill />,
     title: "Value Three",
     desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
   },
   {
     id: 4,
-    icon: <SiOpenaigym />,
+    icon: <RiScissorsCutFill />,
     title: "Value Four",
     desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
   },

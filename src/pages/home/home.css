@@ -10,14 +10,16 @@
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: space-between;
+  align-items:center;
   gap: 6rem;
 }
 
 .main__header-left {
-  margin-top: -3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 
 .main__header-left h4 {
   margin-bottom: 1rem;
@@ -26,7 +28,7 @@
 }
 
 .main__header-left p {
-  margin: 1rem 0 3.5rem;
+  margin: 1rem 0 2rem;
   font-size: 1.1rem;
 }
 
@@ -36,16 +38,15 @@
   position: relative;
 }
 
-.main__header-circle {
-  width: 25rem;
-  height: 25rem;
-  background: linear-gradient(75deg, var(--color-secondary), transparent);
-  border-radius: 50%;
-  position: absolute;
-}
 
 .main__header-image {
   position: relative;
+  height: 300px;
+  width: 70%;
+}
+
+.main__header-image > img {
+  border-radius: 4rem;
 }
 
 /* PROGRAMS !!!! */
@@ -77,6 +78,7 @@
 /* I use this style in the values class cuz the section didnt apply it directly to the component VALUES.JSX */
 .values{
   margin-top: 4rem;
+  
 }
 
 .values__container{
@@ -130,7 +132,7 @@
 }
 
 .faq{
-  background: var(--color-gray-500);
+  background: #efdfe2;
   padding: 2rem;
   border-radius: 1rem;
   cursor: pointer;
@@ -145,12 +147,14 @@
 
 .faq__icon{
   background: transparent;
-  color: var(--color-gray-100);
+  color: black;
   font-size: 1.5rem;
 }
 
 .faq p {
   margin-top: 1.5rem;
+  color: #af7c62;
+
 }
 
 /* =================TESTIMONIALS ================ */
