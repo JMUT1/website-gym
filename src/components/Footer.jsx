@@ -33,14 +33,14 @@ const Footer = () => {
                 <Link to="/gallery">Galery</Link>
                 <Link to="/contact">Contact</Link>
             </article>
-            <article>
+            {/* <article>
                 <h4>Insights</h4>
                 <Link to="/about">Blog</Link>
                 <Link to="/plans">Case studies</Link>
                 <Link to="/trainers">Events</Link>
                 <Link to="/gallery">Comunities</Link>
                 <Link to="/contact">FAQs</Link>
-            </article>
+            </article> */}
             <article>
                 <h4>Get in Touch</h4>
                 <Link to="/about">Contact us</Link>

@@ -226,7 +226,7 @@ margin-inline: auto;
 /*============================== FOOTER ============================== */
 
 footer{
-  background: var(--color-primary);
+  background: pink;
   margin-top: 7rem;
   padding-top: 7rem;
   font-size: 0.9rem;
@@ -288,7 +288,7 @@ color: var(--color-secondary);
 color: var(--color-gray-100);
 text-align: center;
 padding: 1.5rem 0;
-border-top: 2px solid var(--color-primary-variant);
+border-top: 2px solid rgb(130, 24, 41);
 margin-top: 5rem;
 }
 
